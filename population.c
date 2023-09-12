@@ -29,7 +29,8 @@ int main(void)
     printf("Years: %i\n", n);
 }
 
-int calc_years(int start, int end) {
+int calc_years(int start, int end)
+{
 
     int years = 0;
     while (start < end)
